@@ -135,6 +135,8 @@
             }
         };
 
+        FB.api('/me', { fields: 'email' }, function(r) { console.log(r) });
+
         /**
          *
          * Make a api call to Graph server.
