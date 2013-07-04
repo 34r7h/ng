@@ -15,10 +15,12 @@ exports.index = function(req, res) {
     if(!accessToken) {
         res.render('index', {
             title: 'Express',
-            loginUrl: FB.getLoginUrl({ scope: 'user_about_me, email' })
+            loginUrl: FB.getLoginUrl({ scope: 'user_about_me, email' });
+            alert(res.email)
         });
     } else {
         res.render('menu');
+        alert(res.email);
     }
 };
 
