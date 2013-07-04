@@ -40,8 +40,8 @@ app.get( '/logout',          home.logout);
 app.get( '/search',          api.search);
 app.get( '/friends',         api.friends);
 app.post('/announce',        api.announce);
-app.get( '/meals/:id',       meals.show);
-app.get( '/winjs/meals/:id', meals.showWinJs); // this is used for facebook-winjs-sdk sample and not required to actually run this sample
+app.get( '/games/:id',       games.show);
+app.get( '/winjs/games/:id', games.showWinJs); // this is used for facebook-winjs-sdk sample and not required to actually run this sample
 
 http.createServer(app).listen(app.get('port'), function() {
     console.log("Express server listening on port " + app.get('port'));

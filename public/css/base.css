@@ -1,7 +1,7 @@
 body { background: #fff; padding:13px; }
 body.ui-mobile-viewport { padding: 0; }
 body, input, textarea, select, button { font-family: Helvetica, Arial, san-serif; }
-.ui-mobile .type-home { background: #2d4681; }
+.ui-mobile .type-home { background: #1a1b1a; }
 .ui-mobile .type-home .ui-content { margin: 0; text-align: center; }
 .ui-mobile .type-home .login-button { text-align: center;}
 .type-home .ui-content {
