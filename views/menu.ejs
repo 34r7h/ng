@@ -79,7 +79,7 @@
 <div data-role="page" id="meals" class="type-menu-drilldown">
     <div data-role="header">
         <a data-rel="back" data-icon="back">Back</a>
-        <h1>Select a Game</h1>
+        <h1>Select a Meal</h1>
     </div>
 
     <div data-role="content">
@@ -90,7 +90,7 @@
 <div data-role="page" id="meal-details" class="type-meal-details">
     <div data-role="header">
         <a data-rel="back" data-icon="back">Back</a>
-        <h1>Game</h1>
+        <h1>Meal</h1>
     </div>
 
     <div data-role="content">
@@ -128,14 +128,14 @@
 
 <script type="x-mustache-template" id="meal_list_tmpl">
     {{#.}}
-    <li><a href="#meal-details" data-name="{{ title }}" data-transition="slide"><img src="images/games/{{ id }}.png"></img>{{ title }}</a></li>
+    <li><a href="#meal-details" data-name="{{ title }}" data-transition="slide"><img src="images/meals/{{ id }}.png"></img>{{ title }}</a></li>
     {{/.}}
 </script>
 
 <script type="x-mustache-template" id="selected_meal_tmpl">
     <h3>{{ title }}</h3>
     <br>
-    <img src="images/games/{{ id }}-full.png"></img>
+    <img src="images/meals/{{ id }}-full.png"></img>
     <br><br>
 </script>
 
