@@ -49,9 +49,11 @@ exports.showWinJs = function (req, res, next) {
         imageUrl:   config.rootUrl + 'images/meals/' + id + '-full.png'
     };
 
+    /*
     res.render('meal', {
         appId:          '438749336206495',
         appNamespace:   'winjsscrumptious',
         meal:           meal
     });
+*/
 };

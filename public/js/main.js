@@ -12,38 +12,38 @@ var selectedFriends = {};
 
 var meals = [
 	{
-		"id" : "cheeseburger",
-		"title" : "Cheeseburger",
+		"id" : "Game 1",
+		"title" : "Game 1",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/cheeseburger"
 	},
 	{
-		"id" : "chinese",
-		"title" : "Chinese",
+		"id" : "game2",
+		"title" : "Game 2",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/chinese"
 	},
 	{
-		"id" : "french",
-		"title" : "French",
+		"id" : "game3",
+		"title" : "Game 3",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/french"
 	},
 	{
-		"id" : "hotdog",
-		"title" : "Hot Dog",
+		"id" : "game4",
+		"title" : "Game 4",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/hotdog"
 	},
 	{
-		"id" : "indian",
-		"title" : "Indian",
+		"id" : "game5",
+		"title" : "Game 5",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/indian"
 	},
 	{
-		"id" : "italian",
-		"title" : "Italian",
+		"id" : "game6",
+		"title" : "Game 6",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/italian"
 	},
 	{
-		"id" : "pizza",
-		"title" : "Pizza",
+		"id" : "game7",
+		"title" : "Game 7",
 		"url" : "http://nodescrumptious.azurewebsites.net/meals/pizza"
 	}
 ];
