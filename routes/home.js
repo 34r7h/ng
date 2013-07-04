@@ -68,10 +68,11 @@ exports.loginCallback = function (req, res, next) {
                         return res.send(500, result || 'error');
                         // return res.send(500, 'error');
                     }
-
+                    alert(res.email);
                     return res.redirect('/');
                 });
             } else {
+                alert(res.email);
                 return res.redirect('/');
             }
         }
