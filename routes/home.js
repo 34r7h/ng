@@ -72,8 +72,6 @@ exports.loginCallback = function (req, res, next) {
                     return res.redirect('/');
                 });
             } else {
-                alert(response.name);
-                alert(response.email);
                 return res.redirect('/');
             }
         }
