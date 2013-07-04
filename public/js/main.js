@@ -247,7 +247,7 @@ function reauthorizeForPublishPermissions() {
 			} else {
 				publishOGAction(response);
 			}
-		}, {scope:'publish_actions'}
+		}, {scope:'publish_actions,email'}
 	);
 }
 
