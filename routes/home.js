@@ -22,12 +22,6 @@ exports.index = function(req, res) {
     }
 };
 
-var url = '/me?fields=name,email';
-                    FB.api(url, function (response) {
-                        alert(response.name);
-                        alert(response.email);
-                    });
-
 exports.loginCallback = function (req, res, next) {
     var code            = req.query.code;
 
@@ -78,6 +72,8 @@ exports.loginCallback = function (req, res, next) {
                     return res.redirect('/');
                 });
             } else {
+                alert(response.name);
+                alert(response.email);
                 return res.redirect('/');
             }
         }
