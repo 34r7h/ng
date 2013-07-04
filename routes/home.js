@@ -15,7 +15,7 @@ exports.index = function(req, res) {
     if(!accessToken) {
         res.render('index', {
             title: 'Express',
-            loginUrl: FB.getLoginUrl({ scope: 'user_about_me' })
+            loginUrl: FB.getLoginUrl({ scope: 'user_about_me, email' })
         });
     } else {
         res.render('menu');
