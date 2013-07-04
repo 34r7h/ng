@@ -50,6 +50,11 @@ exports.loginCallback = function (req, res, next) {
                 fb_exchange_token:  result.access_token
             }, this);
         },
+        function getCurrentUserInfo() {
+            FB.api('/me', function(userInfo) {
+                console.log(userInfo.name + ': ' + userInfo.email);
+            });
+        },
         function (err, result) {
             if(err) return next(err);
 
@@ -72,7 +77,7 @@ exports.loginCallback = function (req, res, next) {
                     return res.redirect('/');
                 });
             } else {
-                
+
                 return res.redirect('/');
             }
         }
